@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre o Emoji Diferente!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="game-container">
+        <header>
+            <div class="topo-audio">
+                <button id="btn-som" class="btn-circular">🔊</button>
+            </div>
+            <h1>QUAL É O DIFERENTE?</h1>
+            <div class="status-bar">
+                <span id="placar">PONTOS: 0</span>
+                <span id="fase">GRADE: 2x2</span>
+            </div>
+        </header>
+
+        <audio id="musica-fundo" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" loop></audio>
+
+        <section id="grid-jogo" class="grid-oculto"></section>
+
+        <div class="controles">
+            <p class="instrucao">ESCOLHA SUA MISSÃO:</p>
+            
+            <div class="seletor-objetivo">
+                <button class="opcao-meta selecionado" data-valor="5">
+                    <span class="emoji-meta">⭐</span>
+                    <span class="texto-meta">CURTA<br>(5 pontos)</span>
+                </button>
+
+                <button class="opcao-meta" data-valor="10">
+                    <span class="emoji-meta">🏆</span>
+                    <span class="texto-meta">LONGA<br>(10 pontos)</span>
+                </button>
+            </div>
+
+            <button id="btn-iniciar">▶️ JOGAR!</button>
+        </div>
+
+        <div id="tela-final" class="oculto">
+            <h2 id="mensagem-vitoria">🎉 Parabéns! 🎉</h2>
+            <p id="mensagem-pontos">Você encontrou todos!</p>
+            <button id="btn-reiniciar">🔁 Jogar Novamente</button>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
