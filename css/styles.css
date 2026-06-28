@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Comic Sans MS', cursive;
+    font-family:'Comic Sans MS', 'Chalkboard SE', sans-serif; /* Escolhi essas fontes para manter o visual divertido em qualquer dispositivo: Comic Sans para Windows, Chalkboard SE para iPhone e sans-serif como último recurso */
 }
 
 body {
