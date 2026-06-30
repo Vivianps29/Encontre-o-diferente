@@ -93,7 +93,7 @@ Os 5 melhores jogadores são salvos no `localStorage` do navegador, então os re
 O jogo foi desenvolvido para funcionar bem no celular e no desktop, com largura máxima de 500px e grid adaptável ao tamanho da tela.
 
 ## Declaração de Uso de IA
-Usei IA como apoio durante o desenvolvimento para identificar bugs, melhorar comentários do código e estruturar o README. Todo o código entregue foi revisado e compreendido por mim, e as decisões de design e personalização do jogo foram minhas.
+Usei IA como apoio durante o desenvolvimento para identificar bugs, melhorar comentários do código e estruturar o README. Ela também me ajudou em algumas partes que eu não sabia como fazer, principalmente no CSS e na implementação para colocar o áudio. Todo o código entregue foi revisado e compreendido por mim, e as decisões de design e personalização do jogo foram minhas.
 
 ## Créditos — fontes de referência utilizadas (e o que adaptou de cada uma)
 - Material disponibilizado pelo professor em aula — base para aprender manipulação do DOM e criação de elementos via JavaScript
